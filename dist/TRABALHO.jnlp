@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TRABALHO.jnlp">
+  <information>
+    <title>TRABALHO</title>
+    <vendor>Rayller</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TRABALHO.jar" size="10059" download="eager" />
+    <jar href="lib\javax.persistence-2.1.0.jar" size="162126" download="eager" />
+    <jar href="lib\org.eclipse.persistence.antlr-2.5.2.jar" size="189645" download="eager" />
+    <jar href="lib\org.eclipse.persistence.asm-2.5.2.jar" size="271204" download="eager" />
+    <jar href="lib\org.eclipse.persistence.core-2.5.2.jar" size="5056217" download="eager" />
+    <jar href="lib\org.eclipse.persistence.jpa-2.5.2.jar" size="1364245" download="eager" />
+    <jar href="lib\org.eclipse.persistence.jpa.jpql-2.5.2.jar" size="1366247" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.27.2.1.jar" size="6012107" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="trabalho.TRABALHO"  name="TRABALHO" />
+  <update check="always"/>
+</jnlp>
